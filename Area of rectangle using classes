@@ -6,16 +6,16 @@ class rectangle{
        void get_data();
        int area();
 };
-void::rectangle get_data(){
+void rectangle::get_data(){
       cout<<"Enter length and breadth:"<<endl;
       cin>>L,B;
 }
-int::rectangle area(){
+int rectangle::area(){
       return(L*B);
 }
 int main(){
       rectangle r1,r2,r3;
       r1.get_data();
-      cout<<"The area of rectangle is "<<area();
+      cout<<"The area of rectangle is "<<r1.area();
       return 0;
 }
