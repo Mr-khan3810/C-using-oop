@@ -1,16 +1,16 @@
 #include<iostream>
 using namespace std;
 class rectangle{
-int L,B
-     public:
+ public:
+       int L,B;
        void get_data();
        int area();
 };
-class void::rectangle get_data{
+void::rectangle get_data(){
       cout<<"Enter length and breadth:"<<endl;
       cin>>L,B;
 }
-class int::rectangle area(){
+int::rectangle area(){
       return(L*B);
 }
 int main(){
