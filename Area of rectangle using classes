@@ -16,6 +16,10 @@ int rectangle::area(){
 int main(){
       rectangle r1,r2,r3;
       r1.get_data();
-      cout<<"The area of rectangle is "<<r1.area();
+      cout<<"The area of rectangle is "<<r1.area()<<endl;
+      r2.get_data();
+      cout<<"The area of rectangle is "<<r2.area()<<endl;
+      r3.get_data();
+      cout<<"The area of rectangle is "<<r3.area()<<endl;
       return 0;
 }
